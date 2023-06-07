@@ -46,6 +46,7 @@ void insert(char str[],all* ptr)
 int main()
 {
 	int n,i,j,k;
+	scanf("Enter the number of strings :");
 	scanf("%td",&n);
 	char str[n][size];
 	for(i=0;i<n;i++)
